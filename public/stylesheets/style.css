@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #a2d2f2;
+}
+
+a {
+  color: green;
+}
+h1 {
+    text-decoration: underline;
+    font-size: 3vw;
+    margin-left: 7.5%;
+}
+section{
+    background-color:burlywood;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 19.5%;
+    border-radius: 5%;
+}
+.main{
+    position: absolute;
+    left: 37%;
+    top: 32%;
+    text-align: center;
+   
+}
+h2{
+    font-size: 1.2vw;
+}
+p{
+    font-size: 1vw;
+}
+label{
+    font-size: .9vw;
+}

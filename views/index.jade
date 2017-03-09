@@ -1,0 +1,24 @@
+extends layout
+
+block content
+ section
+   h1= title
+   div.main
+    form(name="main", method="post", action="/Lurl")
+         div.input
+             label Enter long URL : 
+             input(type="text", name="LUrl")
+         br
+         div.actions
+             input(type="submit", value="SUBMIT")
+         br
+         label New short URL : 
+         a.output(type="json", name="NUrl" href="#{longurl}")  #{JSON.stringify(tinyurl)}
+         br
+         h2= instruction
+         h2= subheader
+        
+         p= sample
+         h2= expectedoutput
+    
+         p= output
